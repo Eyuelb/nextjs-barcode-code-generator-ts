@@ -1,4 +1,5 @@
 "use client";
+import GenerateBarCode from "@/lib/react-barcode";
 import Barcode from "./_components/barcode";
 
 export default function Home() {
@@ -49,6 +50,7 @@ export default function Home() {
           </div>
         )}
       </Barcode>
+      <GenerateBarCode data="Test"/>
     </main>
   );
 }
